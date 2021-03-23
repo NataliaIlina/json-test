@@ -1,16 +1,10 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+  "users":[
+    {"name":"Иван","surname":"Попов","active":true,"gender":"male","joined":"01.12.2020"},
+    {"name":"Петр","surname":"Смирнов","active":false,"gender":"male","joined":"30.02.2020"},
+    {"name":"Анна","surname":"Кузнецов","active":true,"gender":"female","joined":"21.05.2020"},
+    {"name":"Дмитрий","surname":"Смирнов","active":false,"gender":"male","joined":"31.12.2018"},
+    {"name":"Любовь","surname":"Иванова","active":true,"gender":"female","joined":"21.02.2015"},
+    {"name":"Петр","surname":"Попов","active":true,"gender":"male","joined":"11.04.2014"},
+    {"name":"Анна","surname":"Репина","active":true,"gender":"female","joined":"21.03.2010"}]
 }
